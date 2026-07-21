@@ -1,4 +1,2 @@
-import math
-a=5
-result = math.sqrt(a)
-print(result*math.pi)
+L=list("ictak kerala")
+print(L[8 : -1])

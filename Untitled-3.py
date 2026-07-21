@@ -1,3 +1,2 @@
-my_name = 'Nidhin'
-message = f"Welcome to the world of Python programming, my name is {my_name}."  
-print(message)
+L=['a','b','c','d','e','hello',[1,2,3]]
+print(L[5])
