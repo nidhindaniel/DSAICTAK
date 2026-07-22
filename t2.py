@@ -1,9 +1,5 @@
-num=int(input("Enter a Year: "))
-def leap_or_not(num):
-    if (num % 4 == 0 ) or (num % 400 == 0):
-        
-        print(f"{num} is a Leap Year.")
-    else:
-        print(f"{num} is not a Leap Year.")
-
-leap_or_not(num)
+n=int(input("Enter a number: "))
+sum=0
+for i in range (1, n+1):
+   sum=sum+i
+print(sum)
