@@ -1,8 +1,9 @@
-def sum(a,b):
-    sum=a+b
-    return sum
+def add(n):
+    count = 0
+    for i in range(n+1):
+        count + i
+    return count
 
-
-a = int(input("Enter first number: "))
-b = int(input("Enter second number: "))
-print("The sum of", a, "and", b, "is:", sum(a,b))
+n = int(input("Enter the range: "))
+s = add(n)
+print("The sum of the numbers is:", s)
