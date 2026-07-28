@@ -1,13 +1,14 @@
-#factorial using while loop
+#write a python program to find the sum of first n numbers using recursions
+def sum_od_first(x):
+    count=0
+    if (x<=0) and (x>1000):
+        print("Enter a valid Number")
+    else:
+        for i in range(x+1):
+            count=count+i
+        print(count)
 
-count=1
-n=int(input("Enter the Number"))
-while n>0:
-    for i in range(1,n+1):
-        count=count*i
-    print(count)
-    break
+n=int(input("Enter a number"))
+sum_od_first(n)
 
-       
-print(count)
 
