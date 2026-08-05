@@ -4,7 +4,7 @@ This is a public repository where **nidhindaniel** uploads assignments, hands-on
 
 ---
 
-## 📌 Repository Overview
+## 📌Repository Overview
 
 This repository serves as a centralized portfolio for all course-related materials, including data analysis, data manipulation, visualization, and machine learning implementations developed throughout the program.
 
