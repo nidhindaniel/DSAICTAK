@@ -22,6 +22,3 @@ def check_count(list):
     
 
 
-
-l=[2,4,5,3,2]
-check_count(l)
