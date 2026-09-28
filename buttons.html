@@ -11,6 +11,15 @@
         cursor: pointer;
         font-size: 20px;
         margin-right: 8px;
+        transition: opacity 0.15s;;
+        }
+        .subscribe:hover
+        {
+            opacity: .1;
+        }
+        .subscribe:active{
+            opacity: .4;
+            background-color: rgb(255, 8, 8);
         }
 
     .join{
@@ -25,13 +34,17 @@
         border-width: 1px;
         border-radius: 3px;
         margin-right: 10px;
-    
-
-
-
+        transition: background-color .5s, color .5s;
+    }
+    .join:hover{
+        background-color: rgba(0, 94, 255, 0.881);
+        color: white;
+    }
+    .join:active{
+        opacity: .7;
     }
     .tweet{
-        border-radius: 30px;
+        border-radius: 15px;
         background-color: rgba(5, 139, 248, 0.881);
         color: white;
         border: none;
@@ -40,11 +53,13 @@
         font-size: 20px;
         text-align: center;
         cursor: pointer;
-        font-size: bold;
-
-
-
-
+        font-weight: bold;
+        font-size: 15px;
+        
+    }
+    .tweet:hover{
+        box-shadow: 10px;
+        box-shadow: 5px 5px 20px rgba(0,0,0,.15);
 
     }
 
