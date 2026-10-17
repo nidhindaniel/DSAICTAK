@@ -21,20 +21,4 @@ The program covers end-to-end data science workflows, focusing on statistical an
 
 ---
 
-## 📂 Repository Structure
 
-```text
-├── Module-01-Data-Analysis/
-│   ├── Assignments/
-│   └── Lab-Work/
-├── Module-02-Statistics/
-│   ├── Assignments/
-│   └── Lab-Work/
-├── Module-03-Machine-Learning/
-│   ├── Assignments/
-│   └── Lab-Work/
-├── Projects/
-│   ├── Mini-Project/
-│   └── Final-Capstone/
-├── datasets/
-└── README.md
